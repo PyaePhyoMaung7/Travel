@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome cdn link -->
+    <script src="https://kit.fontawesome.com/f0ac7a1e41.js" crossorigin="anonymous"></script>
+    
+    <!-- bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;500&display=swap');
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#travel-navbar" data-bs-smooth-scroll="true" >   
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-secondary-subtle fixed-top" id="travel-navbar">
+        <div class="container px-3 px-sm-0">
+          <a class="navbar-brand fw-bold fs-3 text-shadow" href="index.html"><span class="text-info">Tra</span><span class="text-warning">vel</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-lg-center fs-6">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destination">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#news">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="btn btn-primary bg-gradient">Book now</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="home-container d-flex justify-content-center">
+        <img src="./images/bagan-home.jpg" class="home-img">
+        <div class="home-content text-white d-flex flex-column justify-content-center align-items-center">
+            <h1 class="fs-1 fw-bold text-shadow">Search your next holiday</h1>
+            <p class="text-shadow fs-5">check our best promotions</p>
+            <form class="my-3 py-2 px-3 bg-white rounded-pill">
+              <input type="text" class="border-0" style="outline:none" placeholder="Choose your destination ...">
+              <button class="btn border-0 p-0">
+                <i class="fa-solid fa-magnifying-glass text-dark"></i>
+              </button>
+            </form>
+            <div class="row w-100 my-4">
+              <div class="col bg-black p-2 me-2" style="opacity: 0.6;">
+                <div class="activity d-flex flex-column justify-content-between align-items-center">
+                  <i class="fa-solid fa-bowl-food mb-1"></i>
+                  <span>Food</span>
+                </div>
+              </div>
+              <div class="col bg-black p-2 me-2" style="opacity: 0.6;">
+                <div class="activity d-flex flex-column justify-content-between align-items-center">
+                  <i class="fa-solid fa-mug-hot mb-1"></i>
+                  <span>Drinks</span>
+                </div>
+              </div>
+              <div class="col bg-black p-2 me-2" style="opacity: 0.6;">
+                <div class="activity d-flex flex-column justify-content-between align-items-center">
+                  <i class="fa-solid fa-book mb-1"></i>
+                  <span>History</span>
+                </div>
+              </div>
+              <div class="col bg-black p-2" style="opacity: 0.6;">
+                <div class="activity d-flex flex-column justify-content-between align-items-center">
+                  <i class="fa-solid fa-landmark mb-1"></i>
+                  <span>Landmarks</span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- home section end -->
+    
+    <!-- destination section start -->
+    <section class="destination" id="destination" style="margin: 100px 0px;">
+      <div class="container px-3 px-sm-0">
+        <div class="row justify-content-center mb-4">
+          <div class="section-titile text-center">
+            <p class="text-muted fs-6">Our proposals</p>
+            <h2 class="fw-bold fs-3">Our <span class="border-bottom border-3 border-info">Destinations</span></h2>
+          </div>
+        </div>  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card text-bg-dark border-0 rounded-0 h-100">
+              <img src="./images/bagan.jpg" class="w-100 h-100" alt="">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title fs-5 text-shadow">Bagan</h5>
+                <p class="card-text text-shadow">3 packages</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-dark border-0 rounded-0 h-100">
+              <img src="./images/shwedagon.jpg" class="w-100 h-100" alt="">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title text-shadow">Shwedagon</h5>
+                <p class="card-text text-shadow">1 package</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-dark border-0 rounded-0 h-100">
+              <img src="./images/kyaikhteeyoe.jpg" class="w-100 h-100" alt="">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title text-shadow">Kyaik Htee Yoe</h5>
+                <p class="card-text text-shadow">2 packages</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-dark border-0 rounded-0 h-100">
+              <img src="./images/poppa.jpg" class="w-100 h-100" alt="">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title text-shadow">Mount Poppa</h5>
+                <p class="card-text text-shadow">2 packages</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-dark border-0 rounded-0 h-100">
+              <img src="./images/mandalay.jpg" class="w-100 h-100" alt="">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title text-shadow">Mandalay</h5>
+                <p class="card-text text-shadow">3 packages</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-dark border-0 rounded-0 h-100">
+              <img src="./images/u-bein-bridge.jpg" class="w-100 h-100" alt="">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title text-shadow">U Bein Bridge</h5>
+                <p class="card-text text-shadow">1 package</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- destination section end -->
+
+    <!-- marketing section start -->
+    <section class="marketing" id="marketing" style="margin: 100px 0px;">
+      <div class="marketing-container">
+        <img src="./images/mountains.jpg" class="marketing-img" alt="">
+        <div class="w-100 d-flex justify-content-center align-items-center p-3">
+          <div class="text-white me-4 me-sm-5">
+            <h2>Your</h2>
+            <h2>Next <span class="border-bottom border-success border-3">Vacation</span></h2>
+          </div>
+          <button class="btn btn-success bg-gradient">View all packages</button>
+        </div>
+      </div>  
+    </section>
+    <!-- marketing section end -->
+
+    <!-- News section start -->
+    <section class="news" id="news" style="margin: 100px 0px;">
+      <div class="container px-3 px-sm-0">
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-5 pe-3 mb-5">
+            <h3 class="fs-6 text-muted">Southern Myanmar</h3>
+            <h1 class="fs-3 fw-bold">The Best Beaches</h1>
+            <p class="text-muted my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi unde quas veritatis, iste maiores doloremque pariatur labore perspiciatis laboriosam quod perferendis, cupiditate saepe quidem, illo beatae? Laborum suscipit natus ullam!</p>
+            <p class="my-3">
+              <span class="fs-3">
+                <span class="text-decoration-line-through text-muted">800</span>   500$
+              </span>
+              / For one person
+            </p>
+            <button class="btn btn-primary bg-gradient rounded-pill px-4 border-0">Book now</button>
+          </div>
+          <div class="col-md-7">
+            <!-- gallery start -->
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade position-relative" data-bs-ride="carousel">
+              <div class="carousel-indicators top-0">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="./images/cocks_comb.jpg" class="d-block w-100 object-fit-cover" alt="..." style="height: 300px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-shadow">Cocks Comb Island</h5>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="./images/MerguiIsland.jpg" class="d-block w-100 object-fit-cover" alt="..." style="height: 300px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-shadow">Mergui Archipalego</h5>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="./images/Nyaung-Oo-Phee-Island.jpg" class="d-block w-100 object-fit-cover" alt="..." style="height: 300px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-shadow">Nyaung Oo Phee Beach</h5>
+                  </div>
+                </div>
+              </div>
+              <!-- tour timer start -->
+              <div class="fs-6 px-4 rounded-4 py-2 z-2 d-flex justify-content-between align-items-center position-absolute top-100 start-50 translate-middle bg-primary bg-gradient text-white">
+                <div class="d-flex flex-column align-items-center"><span>000</span><span>Days</span></div>
+                <span class="fs-1 text-body-tertiary mx-1 mx-md-2">/</span>
+                <div class="d-flex flex-column align-items-center"><span>00</span><span>Hours</span></div>
+                <span class="fs-1 text-body-tertiary mx-1 mx-md-2">/</span>
+                <div class="d-flex flex-column align-items-center"><span>00</span><span>Minutes</span></div>
+                <span class="fs-1 text-body-tertiary mx-1 mx-md-2">/</span>
+                <div class="d-flex flex-column align-items-center"><span >00</span><span>Seconds</span></div>
+              </div>
+              <!-- tour timer end -->
+            </div>
+            <!-- gallry end -->
+          </div>
+        </div>
+        <!-- services start -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 d-flex justify-content-between">
+          <div class="col d-flex">
+            <div class="tour-left me-3">
+              <i class="fa-solid fa-earth-asia fs-1 pt-1"></i>
+            </div>
+            <div class="tour-right">
+              <h3 class="fs-5">Best Tours</h3>
+              <p class="text-muted my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id ducimus quisquam numquam aut.</p>
+              <a href="" class="text-decoration-none">View More</a>
+            </div>
+          </div>
+          <div class="col d-flex">
+            <div class="tour-left me-3">
+              <i class="fa-solid fa-ship fs-1 pt-1"></i>
+            </div>
+            <div class="tour-right">
+              <h3 class="fs-5">Cruises</h3>
+              <p class="text-muted my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id ducimus quisquam numquam aut.</p>
+              <a href="" class="text-decoration-none">View More</a>
+            </div>
+          </div>
+          <div class="col d-flex">
+            <div class="tour-left me-3">
+              <i class="fa-solid fa-vihara fs-1 pt-1"></i>
+            </div>
+            <div class="tour-right">
+              <h3 class="fs-5">Temples</h3>
+              <p class="text-muted my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id ducimus quisquam numquam aut.</p>
+              <a href="" class="text-decoration-none">View More</a>
+            </div>
+          </div>
+        </div>
+        <!-- services end -->
+      </div>
+    </section>
+    <!-- News section end -->
+
+    <!-- ads section start -->
+    <section class="ads" id="ads" style="margin: 100px 0px;">
+      <div class="row row-cols-1 row-cols-sm-2 g-0">
+        <div class="col">
+          <div class="marketing-container">
+            <img src="./images/kandawgyi.jpg" class="marketing-img" alt="">
+            <div class="w-100 text-shadow d-flex flex-column justify-content-around text-white align-items-center p-3">
+              <h4 class="fs-6">01. Last Minute</h4>
+              <h2 class="fs-3">Discover Cities</h2>
+              <button class="btn btn-warning text-white bg-gradient">Details</button>
+            </div>  
+          </div>
+        </div>
+        <div class="col">
+          <div class="marketing-container">
+            <img src="./images/mangroves.jpg" class="marketing-img" alt="">
+            <div class="w-100 d-flex text-shadow flex-column justify-content-around text-white align-items-center p-3">
+              <h4 class="fs-6">02. Promotions</h4>
+              <h2 class="fs-3">Discover Nature</h2>
+              <button class="btn btn-success bg-gradient">Details</button>
+            </div>  
+          </div>
+        </div>
+      </div> 
+    </section>
+    <!-- ads section end -->
+
+    <!-- packages section start -->
+    <section class="packages" id="packages" style="margin: 100px 0px;">
+      <div class="container px-3 px-sm-0">
+        <div class="row justify-content-center mb-4">
+          <div class="section-titile text-center">
+            <p class="text-muted fs-6">Our promotions</p>
+            <h2 class="fw-bold fs-3">Our <span class="border-bottom border-3 border-info">Packages</span></h2>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+          <!-- card start -->
+          <div class="col">
+            <div class="card shadow">
+              <img src="./images/bagan-balloon.jpg" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-4">Bagan</h5>
+                <p><i class="fa-solid fa-location-dot"></i><span class="text-muted ms-2">Mandalay</span></p>
+                <hr>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="text-muted d-flex flex-column">
+                    <span>Cultural</span>
+                    <span>Relax <span class="border rounded-pill bg-warning px-3 text-white" style="font-size: 13px;">+1</span></span>
+                  </div>
+                  <div class="fs-4">700$</div>
+                </div>
+                <hr>
+                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, qui! Laboriosam sed temporibus dolorum saepe consequatur nulla recusandae tenetur quasi.</p>
+                <a href="#" class="btn btn-warning bg-gradient text-white">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div class="col">
+            <div class="card shadow">
+              <img src="./images/inlay1.jpg" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-4">Inlay Lake</h5>
+                <p><i class="fa-solid fa-location-dot"></i><span class="text-muted ms-2">Shan</span></p>
+                <hr>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="text-muted d-flex flex-column">
+                    <span>Cultural</span>
+                    <span>Floating <span class="border rounded-pill bg-dark px-3 text-white" style="font-size: 13px;">+1</span></span>
+                  </div>
+                  <div class="fs-4">700$</div>
+                </div>
+                <hr>
+                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, qui! Laboriosam sed temporibus dolorum saepe consequatur nulla recusandae tenetur quasi.</p>
+                <a href="#" class="btn btn-dark bg-gradient">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div class="col">
+            <div class="card shadow">
+              <img src="./images/Mya-Thein-Tan-pagoda.jpg" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-4">Mya Thein Tan pagoda</h5>
+                <p><i class="fa-solid fa-location-dot"></i><span class="text-muted ms-2">Sagaing</span></p>
+                <hr>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="text-muted d-flex flex-column">
+                    <span>Cultural</span>
+                    <span>Heritage <span class="border rounded-pill bg-primary px-3 text-white" style="font-size: 13px;">+1</span></span>
+                  </div>
+                  <div class="fs-4">700$</div>
+                </div>
+                <hr>
+                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, qui! Laboriosam sed temporibus dolorum saepe consequatur nulla recusandae tenetur quasi.</p>
+                <a href="#" class="btn btn-primary bg-gradient">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <!-- card end -->
+        </div>
+      </div>
+    </section>
+    <!-- packages section end -->
+
+    <!-- contact section start -->
+    <section class="contact" id="contact" style="margin-top:100px;">
+      <div class="container px-3 px-sm-0">
+        <div class="row justify-content-center mb-4">
+          <div class="section-titile text-center">
+            <h2 class="fw-bold fs-3"><span class="border-bottom border-3 border-info">Contact </span>Us</h2>
+          </div>
+        </div>
+      </div>
+      <div class="contact-container">
+        <img src="./images/time-city.jpg" class="marketing-img" alt="">
+        <div class="container px-3 px-sm-0">
+          <div class="row row-cols-1 row-cols-md-2 my-4 gy-4">
+            <!-- left side contact start -->
+            <div class="col text-shadow">
+                <div class="text-white">
+                  <p class="fs-6">KEEP IN TOUCH</p>
+                  <div class="fs-3"><span class="fw-bold logo"><span class="text-info">Tra</span><span class="text-warning">vel</span></span> with us</div>
+                  <div class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quidem eveniet impedit. Quod modi laboriosam amet beatae et repudiandae repellat rem cumque? Amet enim laborum id perferendis quo sapiente labore.</div>
+                  <div class="d-flex mt-4 mb-2">
+                    Contact Us via 
+                    <div>
+                      <a href="" target="_blank"><i class="fa-brands fa-x-twitter ms-3 fs-4 text-white"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-instagram ms-3 fs-4 text-white"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-facebook-f ms-3 fs-4 text-white"></i></a>
+                      <a href="" target="_blank"><i class="fa-brands fa-whatsapp ms-3 fs-4 text-white"></i></a>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    Subscribe Our YouTube Channal <a href="" target="_blank"><i class="fa-brands fa-youtube ms-3 fs-4 text-white"></i></a>
+                  </div>
+                </div>
+            </div>
+            <!-- left side contact end -->
+  
+            <!-- right side contact start -->
+            <div class="col">
+                <div class="contact-form px-0">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-7 mb-4">
+                                <input type="email" class="form-control fs-6 border-0" id="email" placeholder="Your Email">
+                            </div>
+                            <div class="col-5 text-end">
+                              <button class="btn btn-danger bg-gradient px-3 fs-6"><i class="fa-solid fa-paper-plane me-3"></i>Send</button>
+                            </div>
+                            <div class="col-12  mb-4">
+                                <textarea placeholder="Your Message" class="form-control fs-6 border-0" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- right side contact end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer start -->
+    <section class="footer" id="footer">
+      <div class="bg-secondary-subtle p-3 text-center">
+        Copyright <i class="fa-regular fa-copyright"></i> 2023 | PYAE PHYO | All rights served.
+      </div>
+    </section>
+    <!-- footer end -->
+</body>
+<!-- bootstrap javascript cdn  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</html>
